@@ -1,5 +1,5 @@
 import getPrismaInstance from "../utils/PrismaClient.js";
-//import onlineUsers from "../utils/OnlineUsers.js";  // ✅ Correct import
+import onlineUsers from "../utils/OnlineUsers.js";  // ✅ Correct import
 import { renameSync } from 'fs';
 
 export const addMessage = async (req, res, next) => {
